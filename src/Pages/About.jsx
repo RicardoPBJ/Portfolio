@@ -1,10 +1,11 @@
-import { NavBar } from "../Components";
+import { Footer, NavBar } from "../Components";
 
 export default function About() {
   return (
-    <main className="home">
+    <div className="home">
       <NavBar/>
       <h1>About</h1>
-    </main>
+      <Footer/>
+    </div>
   );
 }

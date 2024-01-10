@@ -1,10 +1,11 @@
+import "../Styles/NavBar.css"
 import { Link } from 'react-router-dom';
 import { useState } from "react";
 
-export default function NavBar() {
+export default function NavBar(path) {
   const [isHovered, setIsHovered] = useState(false);
   return (
-    <nav>
+    <nav className="nav-class d-flex align-items-right">
       <Link to="/">Home</Link>
       <Link to="/about">Sobre</Link>
       <div
