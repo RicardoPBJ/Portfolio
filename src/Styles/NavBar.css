@@ -1,11 +1,9 @@
 .nav-class > * {
   font: 500 14px/100px "Rubik", sans-serif;
   text-transform: uppercase;
-  color: #000000;
   padding: 0px;
   display: inline-block;
 }
 
-.nav-class > *:hover {
-  color: red;
-}
+/* .nav-class > *:hover {
+} */
