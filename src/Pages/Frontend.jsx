@@ -1,10 +1,16 @@
-import { Footer, NavBar } from "../Components";
+import { Footer, NavBar, ProjectsMold } from "../Components";
+import frontEndData from "../helpers/FrontEndData.js";
 
 export default function Frontend() {
   return (
-    <div className="home">
+    <div>
       <NavBar/>
       <h1>Frontend</h1>
+      <div>
+        {
+          ProjectsMold(frontEndData)
+        }
+      </div>
       <Footer/>
     </div>
   );
