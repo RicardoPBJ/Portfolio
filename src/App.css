@@ -1,6 +1,6 @@
 body {
-  /* background-color: rgb(0, 3, 18); */
+  background-color: rgb(0, 3, 18);
   display: flex;
   justify-content: center;
-  /* color: white; */
+  color: white;
 }
