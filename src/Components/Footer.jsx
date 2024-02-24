@@ -1,4 +1,5 @@
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import "../Styles/Footer.css"
+import { FaGithub, FaLinkedin, FaWhatsappSquare } from 'react-icons/fa';
 
 export default function Footer() {
   const linkIcon = (link, icon) => {
@@ -13,9 +14,11 @@ export default function Footer() {
     )
   }
   return (
-    <footer className="Footer">
-      <h3 className="text-uppercase">Siga-me para saber mais do meu trabalho</h3>
-      <div className="container">
+    <footer className="footer">
+      <h4  className="text-uppercase">Siga-me para saber mais do meu trabalho</h4>
+      <span>Email: rbrumjunio@gmail.com</span>
+      <div className="footer-icons">
+        {linkIcon("https://wa.me/qr/P2CKMBS3GLO7M1", <FaWhatsappSquare />)}
         {linkIcon("https://github.com/RicardoPBJ", <FaGithub/>)}
         {linkIcon("https://www.linkedin.com/in/ricardo-pereira-dev/", <FaLinkedin/>)}
       </div>
