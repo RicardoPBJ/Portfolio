@@ -3,4 +3,5 @@ body {
   display: flex;
   justify-content: center;
   color: white;
+  font-family: "Montserrat", sans-serif;
 }

@@ -1,6 +1,10 @@
+import IconRender from "./IconRender";
+import { GrReactjs } from "react-icons/gr";
+
 const frontEndData = [
   {
     lngName: "React",
+    icon: <IconRender icon={GrReactjs} size={30} />,
     projects: [
       { name: "Star Wars Context and Hooks", url: "" },
       { name: "Recipes App", url: "" },

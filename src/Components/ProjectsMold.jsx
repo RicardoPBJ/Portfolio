@@ -1,8 +1,13 @@
+import "../Styles/projectStyle.css";
+
 function ProjectsMold(mold) {
   return (
-    mold.map(({lngName, projects}) => {
+    mold.map(({lngName, icon, projects}) => {
       return <div>
-        <h3>{ lngName }</h3>
+        <div className="list-title">
+          <h3>{ lngName }</h3>
+          <span>{ icon }</span>
+        </div>
         <ul>
           {
             projects.map(({ name, url }) => {

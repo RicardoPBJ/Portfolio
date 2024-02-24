@@ -1,6 +1,14 @@
+import {
+  TbBrandTypescript,
+  TbBrandCSharp,
+  TbBrandPython,
+} from "react-icons/tb";
+import IconRender from "./IconRender";
+
 const backEndData = [
   {
     lngName: "Typescript",
+    icon: <IconRender icon={TbBrandTypescript} size={30} />,
     projects: [
       {
         name: "Trybe Futebol Clube",
@@ -14,7 +22,8 @@ const backEndData = [
     ],
   },
   {
-    lngName: "C#",
+    lngName: "Csharp",
+    icon: <IconRender icon={TbBrandCSharp} size={30} />,
     projects: [
       { name: "Trybets", url: "https://github.com/RicardoPBJ/trybets" },
       { name: "Trybe Hotel", url: "https://github.com/RicardoPBJ/trybe_hotel" },
@@ -23,6 +32,7 @@ const backEndData = [
   },
   {
     lngName: "Python",
+    icon: <IconRender icon={TbBrandPython} size={30} />,
     projects: [
       {
         name: "Restaurant Orders",

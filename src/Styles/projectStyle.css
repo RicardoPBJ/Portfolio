@@ -1,0 +1,32 @@
+li {
+  border: 1px solid white;
+  border-radius: 5px;
+  list-style-type: none;
+  position: relative;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: -1px;
+}
+
+li:hover {
+  background-color: white;
+}
+
+li > a {
+  text-decoration: none;
+  color: white;
+}
+
+li:hover > a {
+  text-decoration: none;
+  color: rgb(0, 3, 18);
+}
+
+.list-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-title > h3 {
+  margin-right: 10px;
+}
