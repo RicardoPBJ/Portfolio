@@ -1,18 +1,20 @@
+import "../Styles/Home.css"
 import { Footer, Header } from "../Components";
 import { homeImage } from '../images';
 
 export default function Home() {
   return (
     <div className="">
-      <Header/>
+      <Header />
       <main>
-        <div className="d-flex">
-          <div className="container">
-            <h3 className="text-uppercase">Olá</h3>
-            <h1 className="text-uppercase">Eu sou o Ricardo Pereira</h1>
-            <h5 className="text-uppercase">Desenvolvedor Junior FullStack</h5>
+        <div className="container d-flex align-items-center">
+          <div className="container home-text">
+            <h3>Olá</h3>
+            <h1>Eu sou o</h1>
+            <h1>Ricardo Pereira</h1>
+            <h5>Desenvolvedor Web FullStack Junior</h5>
           </div>
-          <img src={homeImage} alt="homeigm" width='300'/>
+          <img src={homeImage} alt="homeigm" className="home-img"/>
         </div>
       </main>
       <Footer/>

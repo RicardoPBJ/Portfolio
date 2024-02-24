@@ -3,8 +3,8 @@ import backEndData from "../helpers/BackEndData.js";
 
 export default function Backend() {
   return (
-    <div className="home">
-      <Header/>
+    <div>
+      <Header  />
       <div>
         {
           ProjectsMold(backEndData)

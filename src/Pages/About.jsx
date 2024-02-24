@@ -5,7 +5,7 @@ export default function About() {
   const { about } = Texts
   return (
     <div className="about">
-      <Header/>
+      <Header />
       <main>
         <section className="d-flex flex-row">
           <img src='' alt='aboutImage' />

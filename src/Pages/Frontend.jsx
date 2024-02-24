@@ -4,7 +4,7 @@ import frontEndData from "../helpers/FrontEndData.js";
 export default function Frontend() {
   return (
     <div>
-      <Header/>
+      <Header />
       <div>
         {
           ProjectsMold(frontEndData)
