@@ -3,7 +3,7 @@ import "../Styles/projectStyle.css";
 function ProjectsMold(mold) {
   return (
     mold.map(({lngName, icon, projects}) => {
-      return <div>
+      return <div className="project">
         <div className="list-title">
           <h3>{ lngName }</h3>
           <span>{ icon }</span>

@@ -1,12 +1,12 @@
-import { Footer, NavBar } from "../Components";
+import { Footer, Header } from "../Components";
 import { homeImage } from '../images';
 
 export default function Home() {
   return (
-    <div>
-      <NavBar/>
+    <div className="">
+      <Header/>
       <main>
-        <div className="d-flex flex-row" home>
+        <div className="d-flex">
           <div className="container">
             <h3 className="text-uppercase">Olá</h3>
             <h1 className="text-uppercase">Eu sou o Ricardo Pereira</h1>

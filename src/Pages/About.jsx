@@ -1,11 +1,11 @@
-import { Footer, NavBar } from "../Components";
+import { Footer, Header } from "../Components";
 import { Texts } from "../helpers";
 
 export default function About() {
   const { about } = Texts
   return (
     <div className="about">
-      <NavBar/>
+      <Header/>
       <main>
         <section className="d-flex flex-row">
           <img src='' alt='aboutImage' />

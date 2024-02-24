@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function NavBar(path) {
   const [isHovered, setIsHovered] = useState(false);
   return (
-    <nav className="nav-class d-flex align-items-right">
+    <nav className="color-deco nav-class d-flex align-items-right">
       <Link to="/">Home</Link>
       <Link to="/about">Sobre</Link>
       <div
@@ -13,10 +13,15 @@ export default function NavBar(path) {
         onMouseLeave={() => setIsHovered(false)}
       >
         Projetos
-        {isHovered ?  <div className="hidden-buttons">
-          <Link to="/frontend">Front End</Link>
-          <Link to="/backend">Back End</Link>
-        </div> : null}
+        {isHovered ?  <section className="projects shadow-box upAnime">
+          <div className="color-deco p-2-b">
+            <Link to="/frontend">Front-End</Link>
+          </div>
+          <hr />
+          <div className="color-deco p-2-t">
+            <Link to="/backend">Back-End</Link>
+          </div>
+        </section> : null}
       </div>
     </nav>
   )
