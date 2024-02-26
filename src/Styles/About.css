@@ -1,0 +1,23 @@
+.about-container {
+  display: flex;
+  margin-inline: 5em;
+  align-items: center;
+}
+.text-container {
+  font-family: "Chakra Petch", sans-serif;
+  margin-left: 7em;
+}
+
+.text-container > h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.about-texts {
+  font-size: large;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}

@@ -1,0 +1,66 @@
+.nav-class > * {
+  font: 500 19px "Rubik", sans-serif;
+  padding: 0.5em;
+}
+
+.color-deco > * {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav {
+  display: flex;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+.shadow-box {
+  box-shadow: 0px 1px 2px 0px rgb(54, 93, 140);
+}
+
+.projects {
+  border-radius: 0.2em;
+  font: 500 0.8em "Rubik", sans-serif;
+  width: 8em;
+  height: 5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 0.5em;
+  position: absolute;
+  background: #000932;
+}
+
+hr {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0em;
+  background-color: #ccc;
+}
+
+.nav-class > *:hover {
+  color: rgb(54, 93, 140);
+}
+.projects > * {
+  margin: auto;
+}
+
+.projects > * > *:hover {
+  color: rgb(54, 93, 140);
+}
+
+.upAnime {
+  animation: subir 1s ease-in-out;
+}
+
+@keyframes subir {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

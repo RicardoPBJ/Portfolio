@@ -1,0 +1,33 @@
+li {
+  border: 1px outset white;
+  border-radius: 5px;
+  list-style-type: none;
+  display: block;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: -1px;
+  background: #0c143b;
+}
+
+li:hover {
+  background-color: white;
+}
+
+li > a {
+  text-decoration: none;
+  color: white;
+}
+
+li:hover > a {
+  text-decoration: none;
+  color: rgb(0, 3, 18);
+}
+
+.list-title {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2em;
+}
+
+.project {
+  margin-inline: 15em;
+}
