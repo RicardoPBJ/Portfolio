@@ -12,7 +12,7 @@ export default function Home() {
             <h3>Olá</h3>
             <h1>Eu sou o</h1>
             <h1>Ricardo Pereira</h1>
-            <h5>Desenvolvedor Web FullStack Junior</h5>
+            <h5>Desenvolvedor Web FullStack</h5>
           </div>
           <img src={homeImage} alt="homeigm" className="home-img"/>
         </div>
