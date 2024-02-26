@@ -6,12 +6,12 @@ const frontEndData = [
     lngName: "React",
     icon: <IconRender icon={GrReactjs} size={30} />,
     projects: [
-      { name: "Star Wars Context and Hooks", url: "" },
-      { name: "Recipes App", url: "" },
-      { name: "Trivia", url: "" },
-      { name: "Testes em React", url: "" },
-      { name: "Front-end online store", url: "" },
-      { name: "Trybe Wallet", url: "" },
+      { name: "Trivia", url: "https://trivia-react-redux-pied.vercel.app/" },
+      { name: "Recipes App", url: "https://recipes-app-gamma-snowy.vercel.app/" },
+      { name: "Testes em React", url: "https://react-testing-library-indol.vercel.app/" },
+      { name: "Front-end online store", url: "https://frontend-online-store-rho.vercel.app/" },
+      { name: "Trybe Wallet", url: "https://trybe-wallet-iota-woad.vercel.app/" },
+      { name: "Star Wars Context and Hooks", url: "https://github.com/RicardoPBJ/starwars_planets_search" },
     ],
   },
 ];
