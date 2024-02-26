@@ -6,7 +6,7 @@ import { Texts } from "../helpers";
 export default function About() {
   const { about } = Texts
   return (
-    <div className="about">
+    <div>
       <Header />
       <main>
         <section className="about-container">

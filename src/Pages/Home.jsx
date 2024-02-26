@@ -4,7 +4,7 @@ import { homeImage } from '../images';
 
 export default function Home() {
   return (
-    <div className="">
+    <div>
       <Header />
       <main>
         <div className="container d-flex align-items-center">
