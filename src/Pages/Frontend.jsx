@@ -3,7 +3,7 @@ import frontEndData from "../helpers/FrontEndData.js";
 
 export default function Frontend() {
   return (
-    <div>
+    <div className="d-flex flex-column min-vh-100">
       <Header />
       <div>
         {

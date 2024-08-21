@@ -64,3 +64,10 @@ hr {
     opacity: 1;
   }
 }
+
+@media (min-width: 1440px) {
+  .nav-class > * {
+    font: 500 25px "Rubik", sans-serif;
+    padding: 0.5em;
+  }
+}

@@ -3,7 +3,7 @@ import backEndData from "../helpers/BackEndData.js";
 
 export default function Backend() {
   return (
-    <div>
+    <div className="d-flex flex-column min-vh-100">
       <Header  />
       <div>
         {

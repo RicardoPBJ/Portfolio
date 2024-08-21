@@ -1,10 +1,9 @@
 li {
-  border: 1px outset white;
-  border-radius: 5px;
+  border: 0.1em outset white;
+  border-radius: 0.5em;
   list-style-type: none;
   display: block;
   padding: 0.75rem 1.25rem;
-  margin-bottom: -1px;
   background: #0c143b;
 }
 
