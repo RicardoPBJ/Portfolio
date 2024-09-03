@@ -1,6 +1,6 @@
 .header-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   position: sticky;
   top: 0;
@@ -8,4 +8,21 @@
   border-bottom: 1px outset rgb(19, 37, 136);
   margin-bottom: 3em;
   box-shadow: 2px 2px 4px 0px rgb(21, 26, 54);
+}
+.header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20em;
+}
+
+.header-logo > span {
+  font: 500 1.5rem "Nanum Gothic", sans-serif;
+  color: white;
+  white-space: nowrap;
+}
+
+.header-logo > img{
+  width: 5em;
+  background: none;
 }
