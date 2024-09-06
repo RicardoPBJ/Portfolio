@@ -8,10 +8,10 @@ function ProjectsMold(mold) {
           <h3>{ lngName }</h3>
           <span>{ icon }</span>
         </div>
-        <ul>
+        <ul className="prjct-list">
           {
             projects.map(({ name, url }) => {
-              return <li key={ name }><a href={ url } target="_blank" rel="noreferrer">{ name }</a></li>
+              return <li key={ name }className="prjct-item"><a href={ url } target="_blank" rel="noreferrer">{ name }</a></li>
             })
           }
         </ul>

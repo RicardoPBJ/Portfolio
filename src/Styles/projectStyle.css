@@ -1,4 +1,4 @@
-li {
+.prjct-item {
   border: 0.1em outset white;
   border-radius: 0.5em;
   list-style-type: none;
@@ -7,17 +7,17 @@ li {
   background: #0c143b;
 }
 
-li:hover {
+.prjct-item:hover {
   background-color: white;
 }
 
-li > a {
+.prjct-item  > a {
   text-decoration: none;
   font-size: large;
   color: white;
 }
 
-li:hover > a {
+.prjct-item:hover > a {
   text-decoration: none;
   color: rgb(0, 3, 18);
 }
@@ -34,10 +34,10 @@ li:hover > a {
 }
 
 @media (min-width: 1440px) {
-  li {
+  .prjct-item {
     padding: 1.4em 2em;
   }
-  li > a {
+  .prjct-item > a {
     font-size: 1.7em;
   }
 
