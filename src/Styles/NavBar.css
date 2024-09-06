@@ -9,7 +9,7 @@
   text-transform: uppercase;
 }
 
-nav {
+.nav-class {
   display: flex;
   margin-block-start: 1em;
   margin-block-end: 1em;
@@ -33,7 +33,7 @@ nav {
   background: #000932;
 }
 
-hr {
+.hr-clas {
   position: absolute;
   content: "";
   width: 100%;
@@ -44,6 +44,7 @@ hr {
 .nav-class > *:hover {
   color: rgb(54, 93, 140);
 }
+
 .projects > * {
   margin: auto;
 }
@@ -69,5 +70,15 @@ hr {
   .nav-class > * {
     font: 500 25px "Rubik", sans-serif;
     padding: 0.5em;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects {
+    display: none;
+  }
+
+  .nav-class {
+    display: none!important;
   }
 }

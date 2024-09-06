@@ -1,0 +1,25 @@
+.mob-nav {
+  display: none;
+}
+
+.mob-nav > button {
+  background: none;
+  border: none;
+}
+
+.mob-nav > button > * {
+  color: white;
+}
+
+#menu {
+  position: absolute;
+  transition: easy-in-out 1s;
+
+  transform: translate(-200px, 0)
+}
+
+@media (max-width: 768px) {
+  .mob-nav {
+    display: flex;
+  }
+}
