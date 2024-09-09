@@ -12,8 +12,8 @@ function MobileNavBar() {
       <button onClick={() => setIsMenuOn(!isMenuOn)}>
         <IconRender icon={FiAlignJustify} size={55} />
       </button>
-      {isMenuOn && <nav id="menu">
-        <ul>
+      {isMenuOn && <nav className="mob-nav-menu">
+        <ul className="menu-list">
           <li><Link to="/frontend">Front-End</Link></li>
           <li><Link to="/backend">Back-End</Link></li>
           <li><Link to="/about">Sobre</Link></li>

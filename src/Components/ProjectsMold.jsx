@@ -11,7 +11,8 @@ function ProjectsMold(mold) {
         <ul className="prjct-list">
           {
             projects.map(({ name, url }) => {
-              return <li key={ name }className="prjct-item"><a href={ url } target="_blank" rel="noreferrer">{ name }</a></li>
+              return <li key={ name } className="list-unstyled">
+                <a href={ url } target="_blank" rel="noreferrer" className="prjct-item">{ name }</a></li>
             })
           }
         </ul>
