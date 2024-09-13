@@ -14,7 +14,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 20em;
 }
 
 .header-logo > span {
@@ -24,7 +23,7 @@
   margin-right: 5em;
 }
 
-.header-logo > img{
+.header-logo > img {
   width: 5.5em;
   background: none;
 }
@@ -33,17 +32,34 @@
   text-decoration: none;
 }
 
+@media (min-width: 768px) {
+  .header-logo {
+    margin-right: 20em;
+  }
+}
+
 @media (max-width: 768px) {
   .header-container {
     justify-content: space-between;
   }
 
   .header-logo > span {
-    margin-right: 0;
-  } 
+    margin-right: 0em;
+  }
 
   .header-logo {
-    margin-right: none;
     padding: 1em;
+  }
+
+  .header-logo > img {
+    width: 4em;
+    background: none;
+  }
+
+  .header-logo > span {
+    font: 300 1.5rem "Rajdhani", sans-serif;
+    color: white;
+    white-space: nowrap;
+    margin: auto;
   }
 }

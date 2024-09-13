@@ -1,42 +1,23 @@
 .mob-nav {
   display: none;
+  position: sticky;
 }
 
-.mob-nav > button {
-  background: none;
-  border: none;
-}
-
-.mob-nav > button > * {
+#fade-button {
   color: white;
 }
 
-.mob-nav-menu {
-  position: absolute;
-  transition: easy-in-out 1s; 
-  transform: translate(-200px, 0)
-}
-.menu-list > * {
-  list-style-type: none;
-}
-
-.menu-list > li > a {
+.l-label > * {
   color: white;
   text-decoration: none;
-  text-transform: uppercase;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
   .mob-nav {
     display: block;
     padding-right: 1em;
-    background-color: black;
     justify-content: center;
     align-items: center;
-  }
-
-  .mob-nav-menu {
-    background-color: black;
-    border: 1px solid white;
   }
 }
