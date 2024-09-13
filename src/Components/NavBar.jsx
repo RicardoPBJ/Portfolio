@@ -13,15 +13,15 @@ export default function NavBar(path) {
         onMouseLeave={() => setIsHovered(false)}
       >
         Projetos
-        {isHovered ?  <section className="projects shadow-box upAnime">
+        {isHovered && <section className="projects shadow-box upAnime">
           <div className="color-deco p-2-b">
             <Link to="/frontend">Front-End</Link>
           </div>
-          <hr />
+          <hr className="hr-clas"/>
           <div className="color-deco p-2-t">
             <Link to="/backend">Back-End</Link>
           </div>
-        </section> : null}
+        </section>}
       </div>
     </nav>
   )

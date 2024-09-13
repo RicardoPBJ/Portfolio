@@ -1,0 +1,23 @@
+.mob-nav {
+  display: none;
+  position: sticky;
+}
+
+#fade-button {
+  color: white;
+}
+
+.l-label > * {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .mob-nav {
+    display: block;
+    padding-right: 1em;
+    justify-content: center;
+    align-items: center;
+  }
+}

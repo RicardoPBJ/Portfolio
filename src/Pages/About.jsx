@@ -6,7 +6,7 @@ import { Texts } from "../helpers";
 export default function About() {
   const { about } = Texts
   return (
-    <div>
+    <div className="d-flex flex-column min-vh-100">
       <Header />
       <main>
         <section className="about-container">
