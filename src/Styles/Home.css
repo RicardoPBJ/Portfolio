@@ -32,7 +32,6 @@
 
 .small-screen-btns {
   display: none;
-
 }
 
 .small-screen-btns > * {
@@ -43,7 +42,7 @@
   border-radius: 0.5em;
 }
 
-.small-screen-btns > div > *{
+.small-screen-btns > div > * {
   text-decoration: none;
   font-size: large;
   color: white;
@@ -66,7 +65,6 @@
   .home-text {
     font-size: large;
   }
-
 }
 
 @media (max-width: 768px) {
@@ -75,7 +73,7 @@
   }
 
   .home-img {
-    visibility: hidden;
+    display: none;
     border-radius: 10%;
   }
 
@@ -83,5 +81,4 @@
     display: block;
     justify-content: space-evenly;
   }
-
 }
