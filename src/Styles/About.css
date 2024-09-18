@@ -32,4 +32,15 @@
   .text-container {
     margin-left: auto;
   }
+
+  .text-container > h2 {
+    flex-wrap: nowrap;
+    text-align: center;
+  }
+
+  .about-texts {
+    font-size: large;
+    text-align: center;
+    margin-inline: 2em;
+  }
 }
