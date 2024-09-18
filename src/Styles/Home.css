@@ -15,7 +15,11 @@
   font-family: "Chakra Petch", sans-serif;
 }
 
-.home-text > h3 {
+.normal-screen-text {
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.normal-screen-text > h3 {
   font-size: 3.2em;
   font-weight: 500;
 }
@@ -25,9 +29,22 @@
   font-weight: 500;
 }
 
+.normal-screen-text > h1 {
+  font-size: 4.5em;
+  font-weight: 500;
+}
+
 .home-text > h5 {
   font-size: 1.5em;
   font-weight: 300;
+}
+
+.small-screen-text {
+  display: none;
+}
+.small-screen-text > h3 {
+  font-weight: 300;
+  font-family: "Chakra Petch", sans-serif;
 }
 
 .small-screen-btns {
@@ -37,24 +54,24 @@
 .small-screen-btns > * {
   display: flex;
   justify-content: center;
-  background-color: blue;
-  border: 0.1em outset white;
-  border-radius: 0.5em;
-}
-
-.small-screen-btns > div > * {
+  background-color: #0c143b;
+  border: 0.2em outset white;
   text-decoration: none;
-  font-size: large;
+  border-radius: 1em;
   color: white;
+  padding: 1.5em 2.5em;
+  margin-bottom: 0.2em;
 }
 
-.prjt-link {
-  padding: 2em 5em;
+.small-screen-btns > *:hover {
+  background-color: white;
+  text-decoration: none;
+  border-color: black;
+  color: rgb(0, 3, 18);
 }
 
-.about-link {
-  margin-inline: 1em;
-  padding: 1.5em 2em;
+.small-screen-btns > a > span {
+  font: 500 2em "IBM Plex Sans", sans-serif;
 }
 
 @media (min-width: 1440px) {
@@ -72,13 +89,35 @@
     flex-direction: column;
   }
 
+  .home-text {
+    display: block;
+    text-align: center;
+  }
+
   .home-img {
     display: none;
-    border-radius: 10%;
   }
 
   .small-screen-btns {
     display: block;
-    justify-content: space-evenly;
+    margin-block: 2em;
+  }
+  .normal-screen-text {
+    display: none;
+  }
+
+  .home-text > h1 {
+    font-size: 2.8em;
+    font-weight: 700;
+    text-wrap: nowrap;
+  }
+
+  .home-text > h5 {
+    font-size: 1.3em;
+    font-weight: 200;
+  }
+
+  .small-screen-text {
+    display: block;
   }
 }

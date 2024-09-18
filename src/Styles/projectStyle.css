@@ -39,4 +39,10 @@
   .project {
     margin-inline: 2em;
   }
+  .list-title {
+    margin-left: auto;
+  }
+  .prjct-list {
+    padding-left: 0em;
+  }
 }
