@@ -13,7 +13,6 @@
   background-color: white;
 }
 
-
 .prjct-item:hover {
   text-decoration: none;
   color: rgb(0, 3, 18);
@@ -33,5 +32,11 @@
   .prjct-item {
     padding: 1.4em 2em;
     font-size: 1.7em;
+  }
+}
+
+@media (max-width: 768px) {
+  .project {
+    margin-inline: 2em;
   }
 }
