@@ -15,7 +15,11 @@
   font-family: "Chakra Petch", sans-serif;
 }
 
-.home-text > h3 {
+.normal-screen-text {
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.normal-screen-text > h3 {
   font-size: 3.2em;
   font-weight: 500;
 }
@@ -25,9 +29,22 @@
   font-weight: 500;
 }
 
+.normal-screen-text > h1 {
+  font-size: 4.5em;
+  font-weight: 500;
+}
+
 .home-text > h5 {
   font-size: 1.5em;
   font-weight: 300;
+}
+
+.small-screen-text {
+  display: none;
+}
+.small-screen-text > h3 {
+  font-weight: 300;
+  font-family: "Chakra Petch", sans-serif;
 }
 
 .small-screen-btns {
@@ -72,6 +89,11 @@
     flex-direction: column;
   }
 
+  .home-text {
+    display: block;
+    text-align: center;
+  }
+
   .home-img {
     display: none;
   }
@@ -79,5 +101,23 @@
   .small-screen-btns {
     display: block;
     margin-block: 2em;
+  }
+  .normal-screen-text {
+    display: none;
+  }
+
+  .home-text > h1 {
+    font-size: 2.8em;
+    font-weight: 700;
+    text-wrap: nowrap;
+  }
+
+  .home-text > h5 {
+    font-size: 1.3em;
+    font-weight: 200;
+  }
+
+  .small-screen-text {
+    display: block;
   }
 }

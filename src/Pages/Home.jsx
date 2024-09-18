@@ -10,10 +10,15 @@ export default function Home() {
       <main>
         <div className="container home-container">
           <div className="container home-text">
-            <h3>Olá!</h3>
-            <h1>Eu sou o</h1>
-            <h1>Ricardo Pereira.</h1>
-            <h5>Desenvolvedor Web FullStack</h5>
+            <div className="normal-screen-text">
+              <h3>Olá!</h3>
+              <h1>Eu sou o</h1>
+            </div>
+            <div className="small-screen-text">
+              <h3>Olá, eu sou o</h3>
+            </div>
+            <h1>Ricardo Pereira</h1>
+            <h5>Desenvolvedor Web FullStack.</h5>
           </div>
           <section className="container small-screen-btns">
             <Link to="/frontend">
