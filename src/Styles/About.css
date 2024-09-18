@@ -25,6 +25,10 @@
 }
 
 @media (max-width: 768px) {
+  .about-container {
+    margin-inline: auto;
+  }
+
   .text-container {
     margin-left: auto;
   }

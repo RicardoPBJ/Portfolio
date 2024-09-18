@@ -18,8 +18,8 @@ export default function About() {
               <p>{about.text2}</p>
               <p>{about.text3}</p>
             </div>
+            <TechIcons />
           </div>
-          <TechIcons />
         </section>
       </main>
       <Footer />

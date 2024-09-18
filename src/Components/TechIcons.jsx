@@ -1,19 +1,19 @@
-import {
-  IoLogoCss3,
-  IoLogoDocker,
-  IoLogoHtml5,
-  IoLogoJavascript,
-  IoLogoNodejs,
-  IoLogoPython,
-} from "react-icons/io5";
-import { FaReact } from "react-icons/fa6";
-import { RiNextjsLine } from "react-icons/ri";
-import { SiTypescript, SiCsharp } from "react-icons/si";
+import "../Styles/TechIcons.css";
+import { IconRender, TechIconsArr } from "../helpers";
 
 function TechIcons() {
-  const icons = [1, 2];
-
-  return <main>{icons.map((i) => console.log(i))}</main>;
+  return (
+    <main className="icons-list">
+      {TechIconsArr.map(({ icon, name }) => {
+        return (
+          <div className="icon-el">
+            <IconRender icon={icon} size={50} />
+            <div>{name}</div>
+          </div>
+        );
+      })}
+    </main>
+  );
 }
 
 export default TechIcons;
