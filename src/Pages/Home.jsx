@@ -1,7 +1,7 @@
-import "../Styles/Home.css"
+import "../Styles/Home.css";
 import { Footer, Header } from "../Components";
-import { homeImage } from '../images';
-import { Link } from 'react-router-dom';
+import { homeImage } from "../images";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -16,20 +16,20 @@ export default function Home() {
             <h5>Desenvolvedor Web FullStack</h5>
           </div>
           <section className="container small-screen-btns">
-            <div className="prjt-link">
-              <Link to="/frontend">Front-End</Link>
-            </div>
-            <div className="prjt-link">
-              <Link to="/backend">Back-End</Link>
-            </div>
-            <div className="about-link">
-              <Link to="/about">Sobre</Link>
-            </div>
+            <Link to="/frontend">
+              <span className="prjt-link">Front-End</span>
+            </Link>
+            <Link to="/backend">
+              <span className="prjt-link">Back-End</span>
+            </Link>
+            <Link to="/about">
+              <span className="about-link">Sobre</span>
+            </Link>
           </section>
-          <img src={homeImage} alt="homeigm" className="home-img"/> 
+          <img src={homeImage} alt="homeigm" className="home-img" />
         </div>
       </main>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
