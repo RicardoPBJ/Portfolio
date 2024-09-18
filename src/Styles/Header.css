@@ -30,6 +30,7 @@
 
 .link-logo {
   text-decoration: none;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {

@@ -1,0 +1,41 @@
+.icons-list {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.icons-list > span {
+  font-weight: bolder;
+
+  margin-bottom: 1em;
+}
+
+.icons-container {
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4em;
+}
+
+.icon-el {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.icon-el:hover {
+  transform: scale(1.5);
+}
+
+@media (max-width: 768px) {
+  .icons-list {
+    gap: 0.4em;
+    margin-bottom: 2em;
+  }
+}
