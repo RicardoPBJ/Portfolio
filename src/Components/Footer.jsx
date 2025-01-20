@@ -18,7 +18,7 @@ export default function Footer() {
       <h4  className="text-uppercase">Siga-me para saber mais do meu trabalho</h4>
       <span>Email: rbrumjunio@gmail.com</span>
       <div className="footer-icons">
-        {linkIcon("https://wa.me/qr/P2CKMBS3GLO7M1", <FaWhatsappSquare />)}
+        {linkIcon("https://w.app/RicardoDev", <FaWhatsappSquare />)}
         {linkIcon("https://github.com/RicardoPBJ", <FaGithub/>)}
         {linkIcon("https://www.linkedin.com/in/ricardo-pereira-dev/", <FaLinkedin/>)}
       </div>
