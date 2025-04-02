@@ -16,6 +16,8 @@
 .about-texts {
   font-size: large;
   display: block;
+  height: 13rem;
+  overflow: auto;
 }
 
 @media (min-width: 1440px) {
@@ -42,5 +44,7 @@
     font-size: large;
     text-align: center;
     margin-inline: 2em;
+    height: auto;
+    overflow: auto;
   }
 }
