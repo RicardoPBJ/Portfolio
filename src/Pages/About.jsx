@@ -15,7 +15,7 @@ export default function About() {
             <h2>Vamos a uma introdução sobre mim</h2>
             <div className="about-texts">
               <p>{about.text1}</p>
-              <p>{about.text2}</p>
+              <p dangerouslySetInnerHTML={{ __html: about.text2 }} />
               <p>{about.text3}</p>
             </div>
             <TechIcons />

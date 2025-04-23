@@ -1,11 +1,27 @@
 .about-container {
+  background-color: rgb(2, 5, 24);
+  padding: 1.5em;
   display: flex;
-  margin-inline: 5em;
+  margin-inline: 3em;
   align-items: center;
+  margin-bottom: 2em;
+  border: 1px solid rgb(50, 59, 110);
+  border-radius: 0.5em;
+  box-shadow: 0 3px 5px rgba(21, 26, 54), 0 -3px 5px rgba(21, 26, 54),
+    3px 0 5px rgb(53, 63, 121), -3px 0 5px rgba(21, 26, 54);
 }
+
 .text-container {
   font-family: "Chakra Petch", sans-serif;
+  padding: 2.5em;
   margin-left: 7em;
+  border-radius: 1em;
+}
+
+.text-container:hover {
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0 3px 5px rgba(53, 63, 121), 0 -3px 5px rgba(53, 63, 121),
+    3px 0 5px rgba(53, 63, 121), -3px 0 5px rgba(53, 63, 121);
 }
 
 .text-container > h2 {
@@ -28,22 +44,28 @@
 
 @media (max-width: 768px) {
   .about-container {
-    margin-inline: auto;
+    margin-inline: 1em;
   }
 
   .text-container {
+    padding: 0.3em;
     margin-left: auto;
   }
 
   .text-container > h2 {
+    font-size: 1.8rem;
     flex-wrap: nowrap;
     text-align: center;
+  }
+
+  .text-container:hover {
+    border: none;
+    box-shadow: none;
   }
 
   .about-texts {
     font-size: large;
     text-align: center;
-    margin-inline: 2em;
     height: auto;
     overflow: auto;
   }
