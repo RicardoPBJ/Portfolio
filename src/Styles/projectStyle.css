@@ -7,15 +7,50 @@
   text-decoration: none;
   font-size: large;
   color: white;
+  justify-content: space-between;
 }
 
-.prjct-item:hover {
+.link-container {
+  margin-bottom: 0.1em;
+}
+
+.website-button {
+  display: flex;
+  align-items: center;
+  color: white;
+  border: 0.1em outset white;
+  border-radius: 0.5em 0 0 0.5em;
+  padding-left: 1rem;
+  background-color: #0c143b;
+  width: 90%;
+  padding-block: 0.5em;
+}
+
+.github-button {
+  justify-content: center;
+  font-size: smaller;
+  border: 0.1em outset white;
+  color: white;
+  border-radius: 0 0.5em 0.5em 0;
+  background-color: #0c143b;
+  width: 10%;
+  padding-block: 0.5em;
+}
+
+.link-hover:hover {
   background-color: white;
+  color: rgb(0, 3, 18);
+  border-color: black;
+  transition: 0.5s;
+  border-radius: 0.5em;
 }
 
-.prjct-item:hover {
-  text-decoration: none;
-  color: rgb(0, 3, 18);
+.git-scale:hover {
+  transform: scale(1.15);
+}
+
+.ws-scale:hover {
+  transform: scale(1.02);
 }
 
 .list-title {
@@ -29,19 +64,34 @@
 }
 
 @media (min-width: 1440px) {
-  .prjct-item {
-    padding: 1.4em 2em;
-    font-size: 1.7em;
+  .website-button {
+    font-size: 1.5em;
+  }
+
+  .github-button {
+    font-size: 1.15em;
   }
 }
 
 @media (max-width: 768px) {
   .project {
-    margin-inline: 2em;
+    margin-inline: 3em;
   }
+
+  .website-button {
+    width: 75%;
+    font-size: small;
+  }
+
+  .github-button {
+    width: 25%;
+    font-size: x-small;
+  }
+
   .list-title {
     margin-left: auto;
   }
+
   .prjct-list {
     padding-left: 0em;
   }
