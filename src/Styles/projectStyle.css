@@ -15,12 +15,13 @@
 }
 
 .website-button {
+  font-size: large;
   display: flex;
   align-items: center;
   color: white;
   border: 0.1em outset white;
   border-radius: 0.5em 0 0 0.5em;
-  padding-left: 1rem;
+  padding-left: 1.5rem;
   background-color: #0c143b;
   width: 90%;
   padding-block: 0.5em;
@@ -70,6 +71,9 @@
 
   .github-button {
     font-size: 1.15em;
+  }
+  .prjct-item {
+    font-size: 1.5em;
   }
 }
 
