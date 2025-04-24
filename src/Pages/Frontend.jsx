@@ -5,12 +5,8 @@ export default function Frontend() {
   return (
     <div className="d-flex flex-column min-vh-100">
       <Header />
-      <div>
-        {
-          ProjectsMold(frontEndData)
-        }
-      </div>
-      <Footer/>
+      <div>{ProjectsMold(frontEndData, true)}</div>
+      <Footer />
     </div>
   );
 }
