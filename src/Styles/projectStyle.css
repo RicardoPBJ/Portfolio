@@ -79,17 +79,19 @@
 
 @media (max-width: 768px) {
   .project {
-    margin-inline: 3em;
+    margin-inline: 2.5em;
   }
 
   .website-button {
     width: 75%;
-    font-size: small;
+    font-size: medium;
+    padding-left: 1em;
+    padding-block: 1em;
   }
 
   .github-button {
     width: 25%;
-    font-size: x-small;
+    font-size: smaller;
   }
 
   .list-title {
